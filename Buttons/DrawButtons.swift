@@ -14,17 +14,6 @@ enum ButtonSizeType {
     case small
 }
 
-struct ButtonSizeRect {
-    var x = 0
-    var y = 0
-    var width = 0
-    var height = 0
-    
-    mutating func smallRect() -> ButtonSizeRect {
-        return ButtonSizeRect(x: <#T##Int#>, y: <#T##Int#>, width: <#T##Int#>, height: <#T##Int#>)
-    }
-}
-
 class DrawButtons: UIButton {
     
     var isChecked: Bool = true
@@ -73,7 +62,7 @@ class DrawButtons: UIButton {
     init(type:ButtonSizeType) {
         switch type {
         case .big:
-            super.init(frame: ButtonSizeRect(x: 0, y: 0, width: 100, height: 100))
+            super.init(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
         case .midium:
             super.init(frame: CGRect(x: 0, y: 0, width: 150, height: 150))
         case .small:

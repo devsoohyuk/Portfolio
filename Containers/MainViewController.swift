@@ -14,7 +14,8 @@ class MainViewController: UIViewController {
     @IBOutlet weak var infinityContainerView: UIView!
     @IBOutlet weak var actionsheetContainerView: UIView!
     
-    let drawButton: DrawButtons = DrawButtons(type: .small)
+//    let drawButton: DrawButtons = DrawButtons(type: .small)
+    let drawButton: DrawButtons = DrawButtons(frame: CGRect(x: 10, y: 10, width: 40, height: 40))
     
     override func viewDidLoad() {
         super.viewDidLoad()

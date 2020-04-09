@@ -23,7 +23,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUF-Vb-9b5" customClass="DrawButtons" customModule="Portfolio" customModuleProvider="target">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUF-Vb-9b5" customClass="DrawButtons" customModule="Portfolio" customModuleProvider="target">
                                 <rect key="frame" x="40" y="422" width="334" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="BI5-Ym-ofH"/>
